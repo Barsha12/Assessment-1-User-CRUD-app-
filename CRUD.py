@@ -56,7 +56,7 @@ def displayPrograms():
                 """)
 
 
-# function to register for the program
+##### function to register for the program   #######
 
 def register():
     Programs = ['Python','Java', 'React JS','C#']
@@ -70,7 +70,7 @@ def register():
             
             
                 """)
-    if programs not in Programs : 
+    if programs not in Programs :           #### Available Programs Validation #####
                     print("Program not available")
                     programA=input("Re-enter your program :")
                     Users.set_program = programA
@@ -79,7 +79,7 @@ def register():
     
 
     Contact_Number = input("Enter your Contact number : ")
-    if not (len(Contact_Number) == 10 and Contact_Number.isdigit()): # Contact Number Validation
+    if not (len(Contact_Number) == 10 and Contact_Number.isdigit()): #######  Contact Number Validation  #########
         print ( "Invalid Number !!!" )
         CorrectNum = input("Re-enter your Number")
         Users.set_contact_number = CorrectNum
@@ -107,7 +107,7 @@ def register():
     print("The records has been saved to a file")
 
 
-#Function to Update the details     
+  ####   Function to Update the details   #######    
 
 
 
