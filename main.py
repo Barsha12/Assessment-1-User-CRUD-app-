@@ -8,7 +8,7 @@ class UserInterface():
     def mainMenu(self):
         done = False
         while done == False:
-            print("""##################    Welcome to Insight Workshop Registration Page  ##############################
+            print("""##################    Welcome   ##############################
             
             1. Register for the program
             2. Display all programs
